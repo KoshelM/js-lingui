@@ -19,22 +19,22 @@ function App() {
             </button>
           ))}
         </div>
-        <h3><Trans>Plurals example: </Trans></h3>
+        <h3><Trans id='pluralsExample'>Plurals example: </Trans></h3>
         <div className="lang-container">
           <button type="button" onClick={() => setCount(state => state + 1)}>
-            <Trans>Increment</Trans>
+            <Trans id="increment">Increment</Trans>
           </button>
           <button type="button" onClick={() => setCount(state => state - 1)}>
-            <Trans>Decrement</Trans>
+            <Trans id="decrement">Decrement</Trans>
           </button>
         </div>
-        <Plural
+        <Plural id="books"
           value={count}
           zero={"There are no books"}
           one={"There's one book"}
           other={"There are # books"}
         />
-        <h3><Trans>Date formatter example:</Trans></h3>
+        <h3><Trans id="dataFromat">Date formatter example:</Trans></h3>
         <div>
           <Trans>
           Today is {i18n.date(new Date(), {})}

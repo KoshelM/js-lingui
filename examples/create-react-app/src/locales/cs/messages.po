@@ -12,20 +12,20 @@ msgstr ""
 "Plural-Forms: \n"
 
 #: src/App.tsx:37
-msgid "Date formatter example:"
-msgstr "Příklad formátovače data:"
+#~ msgid "Date formatter example:"
+#~ msgstr "Příklad formátovače data:"
 
 #: src/App.tsx:28
-msgid "Decrement"
-msgstr "Úbytek"
+#~ msgid "Decrement"
+#~ msgstr "Úbytek"
 
 #: src/App.tsx:45
 msgid "I have a balance of {0}"
 msgstr "Mám zůstatek {0}"
 
 #: src/App.tsx:25
-msgid "Increment"
-msgstr "Přírůstek"
+#~ msgid "Increment"
+#~ msgstr "Přírůstek"
 
 #: src/App.tsx:14
 msgid "Language switcher example:"
@@ -36,13 +36,33 @@ msgid "Number formatter example:"
 msgstr "Příklad formátovače čísel:"
 
 #: src/App.tsx:22
-msgid "Plurals example:"
-msgstr "Příklad množného čísla:"
+#~ msgid "Plurals example:"
+#~ msgstr "Příklad množného čísla:"
 
 #: src/App.tsx:39
 msgid "Today is {0}"
 msgstr "Dnes je {0}"
 
 #: src/App.tsx:31
-msgid "{count, plural, zero {There are no books} one {There's one book} other {There are # books}}"
-msgstr "{count, plural, zero {Nejsou žádné knihy} one {Je tu jedna kniha} other {Existuje # knih}}"
+msgid "books"
+msgstr ""
+
+#: src/App.tsx:37
+msgid "dataFromat"
+msgstr ""
+
+#: src/App.tsx:28
+msgid "decrement"
+msgstr ""
+
+#: src/App.tsx:25
+msgid "increment"
+msgstr ""
+
+#: src/App.tsx:22
+msgid "pluralsExample"
+msgstr ""
+
+#: src/App.tsx:31
+#~ msgid "{count, plural, zero {There are no books} one {There's one book} other {There are # books}}"
+#~ msgstr "{count, plural, zero {Nejsou žádné knihy} one {Je tu jedna kniha} other {Existuje # knih}}"
